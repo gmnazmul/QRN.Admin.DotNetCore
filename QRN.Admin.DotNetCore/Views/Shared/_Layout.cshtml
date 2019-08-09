@@ -1,0 +1,63 @@
+﻿<!DOCTYPE html>
+<!--
+ * QRN.Admin - Free Bootstrap Admin Template
+ * version v1.0.0
+ * link https://tecrt.com
+ * Copyright (c) 2019 TecRT.com
+ * Licensed MIT
+-->
+
+<html lang="en">
+<head>
+    <partial name="_Parts/_Head" />
+    @RenderSection("Styles", required: false)
+</head>
+<body class="qrn header-fixed sidebar-fixed aside-menu-fixed aside-menu-hidden ">
+    <!-- footer-fixed sidebar-minimized brand-minimized aside-menu-hidden sidebar-mobile-show-->
+    <partial name="_Parts/_Header" />
+    <div class="qrn-body">
+        <!-- Primary Navigation Sidebar -->
+        <partial name="_Parts/_Navigation" />
+        <main class="main">
+            <div class="container-fluid">
+                @if (string.IsNullOrEmpty(ViewData["Header"].ToString()) == false)
+                {
+                    <h4 class="render-header">@ViewData["Header"]</h4>
+                }
+                else
+                {
+                    <hr style="margin: 7px 0 0 0; border-top: none;" />
+                }
+                    <div class="render-body">
+                        @if (string.IsNullOrEmpty(ViewData["SubHeader"].ToString()) == false)
+                        {
+                            <div id="mainContainDiv" class="card">
+                                <h6 class="card-header">@ViewData["SubHeader"]  
+                                    <span class="text-right">
+                                        <a id="fullScreenExpand" class="fullScreenButton" href="#" title="Full Screen"><i class="fa fa-expand"></i> </a>
+                                        <a id="fullScreenCompress" class="fullScreenButton" href="#" title="Exit Full Screen"><i class="fa fa-compress"></i> </a>
+                                    </span>
+                                </h6>
+                                <div class="card-body">
+                                    @RenderBody()
+                                </div>
+                            </div>
+                            
+                        }
+                        else
+                        {
+                            <div>
+                                @RenderBody()
+                            </div>
+                        }                
+                    </div>
+            </div>
+        </main>
+        <!-- Secondary Content Sidebar -->
+        <partial name="_Parts/_AsideMenu" />
+    </div>
+    <partial name="_Parts/_Footer" />
+
+    @RenderSection("Scripts", required: false)
+</body>
+</html>

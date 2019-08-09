@@ -458,7 +458,7 @@ button {
 
     .qrn-header.navbar .navbar-brand {
         display: inline-block;
-        width: 155px;
+        width: 205px;
         height: 55px;
         padding: 0.5rem 1rem;
         margin-right: 0;
@@ -571,7 +571,7 @@ button {
         overflow-x: hidden;
         overflow-y: auto;
         -ms-overflow-style: -ms-autohiding-scrollbar;
-        width: 200px;
+        width: 250px;
     }
 
         .sidebar .sidebar-nav::-webkit-scrollbar {
@@ -597,7 +597,7 @@ button {
         }
 
     .sidebar .nav {
-        width: 200px;
+        width: 250px;
         -ms-flex-direction: column;
         flex-direction: column;
         min-height: 100%;
@@ -733,7 +733,7 @@ button {
         }
 
             .sidebar-minimized .sidebar .nav-item:hover {
-                width: 250px;
+                width: 300px;
                 overflow: visible;
             }
 
@@ -767,7 +767,7 @@ button {
             }
 
             .sidebar-minimized .sidebar .nav-link:hover {
-                width: 250px;
+                width: 300px;
                 /*background: #20a8d8;*/
             }
 
@@ -780,11 +780,11 @@ button {
             }
 
         .sidebar-minimized .sidebar .nav-dropdown-items .nav-item {
-            width: 200px;
+            width: 250px;
         }
 
             .sidebar-minimized .sidebar .nav-dropdown-items .nav-item .nav-link {
-                width: 200px;
+                width: 250px;
             }
 
         .sidebar-minimized .sidebar .nav > .nav-dropdown > .nav-dropdown-items {
@@ -849,8 +849,8 @@ button {
     }
 
     .qrn-body .sidebar {
-        -ms-flex: 0 0 200px;
-        flex: 0 0 200px;
+        -ms-flex: 0 0 250px;
+        flex: 0 0 250px;
         -ms-flex-order: -1;
         order: -1;
     }
@@ -873,12 +873,12 @@ button {
 .sidebar-fixed .sidebar {
     position: fixed;
     z-index: 1019;
-    width: 200px;
+    width: 250px;
     height: calc(100vh - 55px);
 }
 
 .sidebar-fixed .main, .sidebar-fixed .qrn-footer {
-    margin-left: 200px;
+    margin-left: 250px;
 }
 
 @media (min-width: 992px) {
@@ -973,14 +973,14 @@ button {
     .sidebar {
         position: fixed;
         z-index: 1019;
-        width: 220px;
+        width: 250px;
         height: calc(100vh - 55px);
         margin-left: -220px;
     }
 
         .sidebar .sidebar-nav,
         .sidebar .nav {
-            width: 220px;
+            width: 250px;
             min-height: calc(100vh - 55px);
         }
 
@@ -989,13 +989,13 @@ button {
     }
 
     .sidebar-mobile-show .sidebar {
-        width: 220px;
+        width: 250px;
         margin-left: 0;
     }
 
     .sidebar-mobile-show .main {
-        margin-right: -220px !important;
-        margin-left: 220px !important;
+        margin-right: -250px !important;
+        margin-left: 250px !important;
     }
 }
 

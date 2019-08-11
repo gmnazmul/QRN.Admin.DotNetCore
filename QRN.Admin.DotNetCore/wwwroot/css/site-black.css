@@ -6,7 +6,7 @@
  * Licensed MIT
 */
 :root {
-    --blue: #20a8d8;
+    --blue: #337ab7;
     --indigo: #6610f2;
     --purple: #6f42c1;
     --pink: #e83e8c;
@@ -19,7 +19,7 @@
     --white: #fff;
     --gray: #536c79;
     --gray-dark: #29363d;
-    --blue: #20a8d8;
+    --blue: #337ab7;
     --indigo: #6610f2;
     --purple: #6f42c1;
     --pink: #e83e8c;
@@ -31,7 +31,7 @@
     --cyan: #63c2de;
     --white: #fff;
     --gray: #536c79;
-    --primary: #20a8d8;
+    --primary: #337ab7;
     --secondary: #a4b7c1;
     --success: #4dbd74;
     --info: #63c2de;
@@ -39,7 +39,7 @@
     --danger: #f86c6b;
     --light: #f0f3f5;
     --dark: #29363d;
-    --blue: #20a8d8;
+    --blue: #337ab7;
     --indigo: #6610f2;
     --purple: #6f42c1;
     --pink: #e83e8c;
@@ -55,7 +55,7 @@
     --layout-bgcolor-light: #c8c8c8;
     --body-color: #29363d;
     --body-bgcolor: #fff;
-    --link-color: #20a8d8;
+    --link-color: #337ab7;
     --link-color-active: #167495;
 }
 
@@ -89,7 +89,7 @@ a {
 
 .badge-primary {
     color: #fff;
-    background-color: #20a8d8;
+    background-color: #337ab7;
 }
 
 .badge-success {
@@ -117,7 +117,7 @@ a {
         }
 
             .aside-menu .nav-tabs .nav-link.active {
-                color: #20a8d8;
+                color: #337ab7;
                 border-right-color: var(--layout-bgcolor-light);
                 border-left-color: var(--layout-bgcolor-light);
             }
@@ -241,12 +241,12 @@ a {
         }
 
             .sidebar .nav-link.active i {
-                color: #20a8d8;
+                color: #337ab7;
             }
 
         .sidebar .nav-link:hover {
             color: #fff;
-            background: #20a8d8;
+            background: #337ab7;
         }
 
             .sidebar .nav-link:hover i {
@@ -263,7 +263,7 @@ a {
 
 /*SIDEBAR MINIMIZED*/
 .sidebar-minimized .sidebar .nav-item:hover > .nav-link {
-    background: #20a8d8;
+    background: #337ab7;
 }
 
     .sidebar-minimized .sidebar .nav-item:hover > .nav-link i {
@@ -271,7 +271,7 @@ a {
     }
 
 .sidebar-minimized .sidebar .nav-link:hover {
-    background: #20a8d8;
+    background: #337ab7;
 }
 
 .sidebar-minimized .sidebar .nav > .nav-dropdown > .nav-dropdown-items {
@@ -279,7 +279,7 @@ a {
 }
 
 .sidebar-minimized .sidebar .nav > .nav-dropdown:hover {
-    background: #20a8d8;
+    background: #337ab7;
 }
 
 /*CARD DESIGN*/

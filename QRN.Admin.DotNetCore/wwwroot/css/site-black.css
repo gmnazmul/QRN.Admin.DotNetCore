@@ -5,71 +5,18 @@
  * Copyright (c) 2019 TecRT.com
  * Licensed MIT
 */
-:root {
-    --blue: #337ab7;
-    --indigo: #6610f2;
-    --purple: #6f42c1;
-    --pink: #e83e8c;
-    --red: #f86c6b;
-    --orange: #f8cb00;
-    --yellow: #ffc107;
-    --green: #4dbd74;
-    --teal: #20c997;
-    --cyan: #63c2de;
-    --white: #fff;
-    --gray: #536c79;
-    --gray-dark: #29363d;
-    --blue: #337ab7;
-    --indigo: #6610f2;
-    --purple: #6f42c1;
-    --pink: #e83e8c;
-    --red: #f86c6b;
-    --orange: #f8cb00;
-    --yellow: #ffc107;
-    --green: #4dbd74;
-    --teal: #20c997;
-    --cyan: #63c2de;
-    --white: #fff;
-    --gray: #536c79;
-    --primary: #337ab7;
-    --secondary: #a4b7c1;
-    --success: #4dbd74;
-    --info: #63c2de;
-    --warning: #ffc107;
-    --danger: #f86c6b;
-    --light: #f0f3f5;
-    --dark: #29363d;
-    --blue: #337ab7;
-    --indigo: #6610f2;
-    --purple: #6f42c1;
-    --pink: #e83e8c;
-    --red: #f86c6b;
-    --orange: #f8cb00;
-    --yellow: #ffc107;
-    --green: #4dbd74;
-    --teal: #20c997;
-    --cyan: #63c2de;
-    --layout-color: #fff;
-    --layout-bgcolor: #29363d;
-    --layout-bgcolor-dark: #0d1316;
-    --layout-bgcolor-light: #c8c8c8;
-    --body-color: #29363d;
-    --body-bgcolor: #fff;
-    --link-color: #337ab7;
-    --link-color-active: #167495;
+
+body {
+    color: #29363d;
+    background-color: #e4e5e6;
 }
 
-/*body {
-    color: var(--body-color);
-    background-color: #e4e5e6;
-}*/
-
 a {
-    color: var(--link-color) ;
+    color: #337ab7;
 }
 
     a:hover {
-        color: var(--link-color-active);
+        color: #167495;
     }
 
 .nav-tabs {
@@ -88,42 +35,42 @@ a {
 
 
 .badge-primary {
-    color: #fff;
+    color: #FFFFFF;
     background-color: #337ab7;
 }
 
 .badge-success {
-    color: #fff;
+    color: #FFFFFF;
     background-color: #4dbd74;
 }
 
 .badge-danger {
-    color: #fff;
+    color: #FFFFFF;
     background-color: #f86c6b;
 }
 
 .aside-menu {
-    color: var(--body-color);
-    background: var(--body-bgcolor);
-    border-left: 1px solid var(--layout-bgcolor-light);
+    color: #29363d;
+    background: #FFFFFF;
+    border-left: 1px solid #c8c8c8;
 }
 
     .aside-menu .nav-tabs {
-        border-color: var(--layout-bgcolor-light);
+        border-color: #c8c8c8;
     }
 
         .aside-menu .nav-tabs .nav-link {
-            color: var(--body-color);
+            color: #29363d;
         }
 
             .aside-menu .nav-tabs .nav-link.active {
                 color: #337ab7;
-                border-right-color: var(--layout-bgcolor-light);
-                border-left-color: var(--layout-bgcolor-light);
+                border-right-color: #c8c8c8;
+                border-left-color: #c8c8c8;
             }
 
     .aside-menu .tab-content {
-        border-top: 1px solid var(--layout-bgcolor-light);
+        border-top: 1px solid #c8c8c8;
     }
 
         .aside-menu .tab-content::-webkit-scrollbar-track {
@@ -150,14 +97,14 @@ a {
 }
 
 .qrn-footer {
-    color: #FFF;
-    background: var(--layout-bgcolor);
-    border-top: 1px solid var(--layout-bgcolor);
+    color: #FFFFFF;
+    background: #29363d;
+    border-top: 1px solid #29363d;
 }
 
 .main .container-fluid .render-header {
-    color: #FFF;
-    background-color: var(--layout-bgcolor);
+    color: #FFFFFF;
+    background-color: #29363d;
     /*border-bottom: 1px solid #e6e6e6;*/
     border: 1px solid #7c7c7c;
 }
@@ -167,44 +114,44 @@ a {
 }
 
     .nav-tabs .nav-link.active {
-        color: var(--body-color);
-        background: #fff;
+        color: #29363d;
+        background: #FFFFFF;
         border-color: #a4b7c1;
-        border-bottom-color: #fff;
+        border-bottom-color: #FFFFFF;
     }
 
         .nav-tabs .nav-link.active:focus {
-            background: #fff;
+            background: #FFFFFF;
             border-color: #a4b7c1;
-            border-bottom-color: #fff;
+            border-bottom-color: #FFFFFF;
         }
 
 .tab-content {
-    background: #fff;
+    background: #FFFFFF;
     border: 1px solid #a4b7c1;
 }
 
 .qrn-header.navbar {
-    color: #FFF;
-    background-color: var(--layout-bgcolor);
-    border-bottom: 1px solid var(--layout-bgcolor);
+    color: #FFFFFF;
+    background-color: #29363d;
+    border-bottom: 1px solid #29363d;
 }
 
     .qrn-header.navbar .navbar-brand {
-        background-color: var(--layout-bgcolor);
-        border-bottom: 1px solid var(--layout-bgcolor);
+        background-color: #29363d;
+        border-bottom: 1px solid #29363d;
     }
 
 .navbar-brand {
-    color: var(--body-color);
+    color: #29363d;
 }
 
     .navbar-brand:hover, .navbar-brand:focus {
-        color: var(--body-color);
+        color: #29363d;
     }
 
 .navbar-nav .nav-link {
-    color: #FFF;
+    color: #FFFFFF;
 }
 
     .navbar-nav .nav-link:hover, .navbar-nav .nav-link:focus {
@@ -212,8 +159,8 @@ a {
     }
 
 .sidebar {
-    color: #fff;
-    background: var(--layout-bgcolor);
+    color: #FFFFFF;
+    background: #29363d;
 }
 
     .sidebar .sidebar-nav::-webkit-scrollbar-track {
@@ -228,15 +175,15 @@ a {
 
 
     .sidebar .nav-link {
-        color: #fff;
+        color: #FFFFFF;
     }
 
         .sidebar .nav-link i {
-            color: #fff;
+            color: #FFFFFF;
         }
 
         .sidebar .nav-link.active {
-            color: #fff;
+            color: #FFFFFF;
             background: #33444c;
         }
 
@@ -245,12 +192,12 @@ a {
             }
 
         .sidebar .nav-link:hover {
-            color: #fff;
+            color: #FFFFFF;
             background: #337ab7;
         }
 
             .sidebar .nav-link:hover i {
-                color: #fff;
+                color: #FFFFFF;
             }
 
     .sidebar .nav-dropdown.open {
@@ -258,7 +205,7 @@ a {
     }
 
         .sidebar .nav-dropdown.open .nav-link {
-            color: #fff;
+            color: #FFFFFF;
         }
 
 /*SIDEBAR MINIMIZED*/
@@ -267,7 +214,7 @@ a {
 }
 
     .sidebar-minimized .sidebar .nav-item:hover > .nav-link i {
-        color: var(--layout-color);
+        color: #FFFFFF;
     }
 
 .sidebar-minimized .sidebar .nav-link:hover {
@@ -275,7 +222,7 @@ a {
 }
 
 .sidebar-minimized .sidebar .nav > .nav-dropdown > .nav-dropdown-items {
-    background: var(--layout-bgcolor);
+    background: #29363d;
 }
 
 .sidebar-minimized .sidebar .nav > .nav-dropdown:hover {
@@ -284,12 +231,12 @@ a {
 
 /*CARD DESIGN*/
 .main .container-fluid .card .card-header {
-    background-color: var(--body-bgcolor);
+    background-color: #FFFFFF;
 }
 
 #mainContainDiv .fullScreenButton {
-    border: 1px solid var(--layout-bgcolor-light);
-    color: var(--body-color);
+    border: 1px solid #c8c8c8;
+    color: #29363d
 }
 
 /* WIDGET DESIGN */
